@@ -373,7 +373,7 @@ header {
     top: 8px;
 }
 #navigation ul.primary-menu > li > a {
-    color: inherit;
+    color: black;
     display: block;
     float: left;
     padding: 9px 15px 23px;
@@ -427,6 +427,8 @@ header {
 #navigation .menu [class^="icon-"] > a, #navigation .menu [class*=" icon-"] > a { padding-left: 45px!important }
 #navigation .menu ul [class^="icon-"] > a, #navigation .menu ul [class*=" icon-"] > a { padding-right: 20px }
 #navigation ul.primary-menu > .menu-item-has-children > a { padding-right: 25px }
+#navigation .menu li a {color:black;}
+
 .menu-item-has-children > a:after {
     content: "\f107";
     font-family: "FontAwesome";
@@ -1845,10 +1847,10 @@ body.home .main-container, body.home #page {
 #homepage_slider .flex-caption {
     color: #FFFFFF;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 30%;
     left: 10%;
-    width: 80%;
+    width: 60%;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 #homepage_slider .has_caption {

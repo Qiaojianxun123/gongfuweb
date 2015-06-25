@@ -207,8 +207,8 @@ class GoogleTypography {
                     if (in_array($collection['font_family'], $this->std_fonts)) {
                         $google = false;
                     } else {
-                        $google = true;
-                        $uses_google_fonts = true;
+                    //    $google = true;
+                    //    $uses_google_fonts = true;
                     }
                     
                     if ($google) {
